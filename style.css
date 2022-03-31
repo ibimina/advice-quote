@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+
+body{
+    background-color: hsl(218, 23%, 16%); 
+    padding: 0; 
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main{
+    background-color: hsl(217, 19%, 24%);
+    max-width: 310px;
+    
+    text-align: center;
+    margin: 10px auto;
+    padding: 30px 10px;
+    border-radius: 15px;
+    height: auto;
+    position: relative;
+
+}
+h4{
+    color: hsl(150, 100%, 66%);
+    padding: 10px;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    margin: 9px auto;
+}
+blockquote{
+    color: hsl(193, 38%, 86%);
+    font-size: 2rem;
+    margin: 5px;
+}
+svg.dice{
+    /* padding:30px;
+    border-radius: 36px;
+    background-color:  hsl(150, 100%, 66%);
+    border: 0;
+    position: absolute;
+    min-height: 3vh;
+    top: 29rem;
+    right: 8.7rem;  */
+    display: block;
+    margin: 10px auto;
+    padding:20px;
+    max-width: 100%;
+    background-color:  hsl(150, 100%, 66%);
+   position: absolute;
+   border-radius: 42%;
+   /* right: 140px; */
+   right: 8rem;
+   bottom: -2.6rem;
+}
+svg.dice:active{
+    box-shadow: 0 0 80px 10px hsl(150, 100%, 62%);
+    opacity: 1;
+    cursor: pointer;
+}
+svg.dice:hover{
+    box-shadow: 0 0 80px 10px hsl(150, 100%, 62%);
+    cursor: pointer;
+}
+.dicepath{
+    margin: 5px auto;
+    padding: 10px;
+}
+.underline{
+    padding: 10px;
+    margin: 10px auto;
+    
+}
+@media screen and (min-width:1000px) {
+main{
+max-width: 420px;
+}
+
+svg.dice{
+    right: 11.5rem;
+}
+
+}
