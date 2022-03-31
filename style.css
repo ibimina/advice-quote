@@ -41,14 +41,14 @@ blockquote{
     font-weight: 700;
     letter-spacing: 2px;
 }
-svg.dice{
+div.dice{
     display: block;
     margin: 10px auto;
     padding:20px;
-    max-width: 100%;
+    /* max-width: 100%; */
     background-color:  hsl(150, 100%, 66%);
-   position: absolute;
-   border-radius: 50%;
+    position: absolute;
+    border-radius: 50%;
    /* right: 140px; */
    /* right: 8rem; */
    bottom: -2.6rem;
@@ -56,12 +56,12 @@ svg.dice{
    right: 50%;
    transform: translateX(50%);
 }
-svg.dice:active{
-    box-shadow: 0 0 80px 10px hsl(150, 100%, 62%);
+div.dice:active{
+    box-shadow: 0 0 80px 20px hsl(150, 100%, 62%);
     opacity: 1;
     cursor: pointer;
 }
-svg.dice:hover{
+div.dice:hover{
     box-shadow: 0 0 80px 10px hsl(150, 100%, 62%);
     cursor: pointer;
 }
