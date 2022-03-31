@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap");
 
 
 body{
@@ -10,13 +10,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Manrope;
+    font-size: 1rem;
 }
 
 
 main{
     background-color: hsl(217, 19%, 24%);
     max-width: 310px;
-    
     text-align: center;
     margin: 10px auto;
     padding: 30px 10px;
@@ -28,34 +29,32 @@ main{
 h4{
     color: hsl(150, 100%, 66%);
     padding: 10px;
-    font-size: 1rem;
-    letter-spacing: 5px;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
     margin: 9px auto;
 }
 blockquote{
     color: hsl(193, 38%, 86%);
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 5px;
+    padding: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 svg.dice{
-    /* padding:30px;
-    border-radius: 36px;
-    background-color:  hsl(150, 100%, 66%);
-    border: 0;
-    position: absolute;
-    min-height: 3vh;
-    top: 29rem;
-    right: 8.7rem;  */
     display: block;
     margin: 10px auto;
     padding:20px;
     max-width: 100%;
     background-color:  hsl(150, 100%, 66%);
    position: absolute;
-   border-radius: 42%;
+   border-radius: 50%;
    /* right: 140px; */
-   right: 8rem;
+   /* right: 8rem; */
    bottom: -2.6rem;
+   /* transform: translateX(35px); */
+   right: 50%;
+   transform: translateX(50%);
 }
 svg.dice:active{
     box-shadow: 0 0 80px 10px hsl(150, 100%, 62%);
@@ -71,7 +70,7 @@ svg.dice:hover{
     padding: 10px;
 }
 .underline{
-    padding: 10px;
+    padding: 9px;
     margin: 10px auto;
     
 }
@@ -79,9 +78,4 @@ svg.dice:hover{
 main{
 max-width: 420px;
 }
-
-svg.dice{
-    right: 11.5rem;
-}
-
 }

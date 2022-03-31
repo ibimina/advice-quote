@@ -18,7 +18,7 @@ const randomAdvice = async ()=>{
     }
 
 }
-window.onload=randomAdvice();
+randomAdvice();
 
 dice.addEventListener('click', e =>{
     //console.log('p')
