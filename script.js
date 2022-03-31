@@ -14,7 +14,8 @@ const randomAdvice = async ()=>{
         
        
     } catch (error) {
-        console.log('p')
+       // console.log('p')
+       text.textContent = `oops something went wrong. Kindly refresh page`
     }
 
 }
